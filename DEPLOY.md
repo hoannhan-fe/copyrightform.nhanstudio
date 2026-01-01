@@ -119,3 +119,5 @@ Render tự động deploy khi bạn push code lên branch đã kết nối. B�
 - Request đầu tiên sau khi sleep có thể mất 30-60 giây để wake up
 - Có giới hạn về số lượng services và build time
 
+
+

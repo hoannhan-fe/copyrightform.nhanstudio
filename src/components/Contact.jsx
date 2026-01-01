@@ -40,7 +40,7 @@ function Contact() {
           alignItems: 'center'
         }}>
           <a 
-            href="mailto:contact@nhanstudio.com" 
+            href="mailto:nhanhoan458@gmail.com" 
             style={{
               fontSize: '1.1rem',
               color: '#007bff',
@@ -51,7 +51,7 @@ function Contact() {
             onMouseOver={(e) => e.target.style.color = '#0056b3'}
             onMouseOut={(e) => e.target.style.color = '#007bff'}
           >
-            contact@nhanstudio.com
+            nhanhoan458@gmail.com
           </a>
           <div style={{
             fontSize: '1rem',

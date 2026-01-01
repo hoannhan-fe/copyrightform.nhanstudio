@@ -648,7 +648,7 @@ function Portfolio() {
                 color: '#666'
               }}>
                 <a 
-                  href="mailto:contact@nhanstudio.com"
+                  href="mailto:nhanhoan458@gmail.com"
                   style={{
                     color: '#007bff',
                     textDecoration: 'none',
@@ -657,7 +657,7 @@ function Portfolio() {
                   onMouseOver={(e) => e.target.style.color = '#0056b3'}
                   onMouseOut={(e) => e.target.style.color = '#007bff'}
                 >
-                  📧 contact@nhanstudio.com
+                  📧 nhanhoan458@gmail.com
                 </a>
                 <div>
                   📱 Available for freelance projects
@@ -684,7 +684,7 @@ function Portfolio() {
                 lineHeight: '1.6'
               }}>
                 <div>
-                  © {new Date().getFullYear()} NHAN STUDIO. All rights reserved.
+                  © 2020 NHAN STUDIO. All rights reserved.
                 </div>
                 <div>
                   All images and content on this website are the property of NHAN STUDIO and are protected by copyright law.
