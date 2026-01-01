@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: react-portfolio-frontend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview -- --host --port $PORT
+    envVars:
+      - key: VITE_API_BASE_URL
+        sync: false
+
