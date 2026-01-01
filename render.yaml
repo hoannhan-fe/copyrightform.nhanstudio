@@ -4,6 +4,7 @@ services:
     env: node
     buildCommand: npm install && npm run build
     startCommand: npm run preview -- --host --port $PORT
+    # Publish Directory: dist (Vite build output)
     envVars:
       - key: VITE_API_BASE_URL
         sync: false

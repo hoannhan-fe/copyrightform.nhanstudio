@@ -488,7 +488,7 @@ function Portfolio() {
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '20px' }}>
                 <div>
                   <label style={{ display: 'block', marginBottom: '5px', fontWeight: '500', color: '#333' }}>
-                    Photography tools (comma-separated) *
+                    Camera & Lens (comma-separated) *
                   </label>
                   <input
                     type="text"
@@ -496,7 +496,7 @@ function Portfolio() {
                     value={formData.technologies}
                     onChange={handleInputChange}
                     required
-                    placeholder="React, Node.js, MongoDB"
+                    placeholder="Canon EOS R5, Sony 24-70mm f/2.8, Nikon D850"
                     style={{
                       width: '100%',
                       padding: '10px',

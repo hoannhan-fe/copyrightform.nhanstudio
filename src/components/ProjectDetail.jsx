@@ -878,7 +878,7 @@ function ProjectDetail() {
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', marginBottom: '20px' }}>
                       <div>
                         <label style={{ display: 'block', marginBottom: '5px', fontWeight: '500', color: '#333' }}>
-                          Photography tools (comma-separated) *
+                          Camera & Lens (comma-separated) *
                         </label>
                         <input
                           type="text"
@@ -886,7 +886,7 @@ function ProjectDetail() {
                           value={editFormData.technologies}
                           onChange={handleEditInputChange}
                           required
-                          placeholder="React, Node.js, MongoDB"
+                          placeholder="Canon EOS R5, Sony 24-70mm f/2.8, Nikon D850"
                           style={{
                             width: '100%',
                             padding: '10px',
@@ -975,7 +975,7 @@ function ProjectDetail() {
             
             <div className="project-technologies" style={{ marginBottom: '30px' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px', flexWrap: 'wrap', gap: '10px' }}>
-                <h3 style={{ fontSize: '24px', color: '#333', margin: 0 }}>Photography tools:</h3>
+                <h3 style={{ fontSize: '24px', color: '#333', margin: 0 }}>Camera & Lens:</h3>
                 {isAuthenticated && (user?.role === 'Me' || user?.role === 'Admin' || project.createdBy === user?.id) && (
                   <button
                     onClick={() => {
